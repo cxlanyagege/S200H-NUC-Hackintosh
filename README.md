@@ -46,7 +46,7 @@ The following configurations may not be identical. You may ask sellers for a qua
 - Display Port is not working
   - I use HDMI, you can modify "Framebuffer" to enable DP port
 - HDMI Audio may not work
-  - Did not test it yet
+  - Have not test it yet
 - USB Keyboard does not work well
   - As for me, it happens, still pending
 - Maybe more, you tell me
