@@ -15,6 +15,7 @@ The following configurations may not be identical. You may ask sellers for a qua
 | Monitor        | LG IPS FullHD 1080p               |
 | Sound Card     | Realtek ALC 269VC (layout-id:188) |
 | Wireless Card  | Broadcom 943602CS                 |
+| Ethernet       | Realtek RTL8168H                  |
 
 ## Supported macOS Versions
 
@@ -35,7 +36,7 @@ The following configurations may not be identical. You may ask sellers for a qua
 
 ## What is not working
 
-- i5 and i7 models mat not work
+- i5 and i7 models may not work
   - I did not test other CPU models, trying these at your own risk
 - Power button when host runs macOS
 - Slightly slower boot speed compared to others
