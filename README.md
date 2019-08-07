@@ -16,3 +16,31 @@ The following configurations may not be identical. You may ask sellers for a qua
 | Sound Card     | Realtek ALC 269VC (layout-id:188) |
 | Wireless Card  | Broadcom 943602CS                 |
 
+## What is working
+
+- Regular boot by Clover
+- Native CPU power management
+- Native GPU, full QE/CI
+- Native Sleep / PowerNap
+- Native built-in sould
+- Native NVMe SSD Support
+- Native WIFI / Bluetooth / Ethernet
+- USB / Tyoe-C works fine, limited useless ports by USBPorts.kext
+
+## What is not working
+
+- Power button when macOS boots in
+- Slightly artifacts when booting into the second stage
+- Some USB ports may not work
+  - I use BCM943602CS in M.2 Key M slot instead of native card slot, the USB bus should work according to [kkzzhizhou](https://github.com/kkzzhizhou)'s report
+- Display Port is not working
+  - I use HDMI, you can modify "Framebuffer" to enable DP port
+- HDMI Audio may not work
+  - Did not test it yet
+- USB Keyboard does not work well
+  - As for me, it happens, still pending
+- Maybe more, you tell me
+
+## Credits
+
+- Thanks to [kkzzhizhou](https://github.com/kkzzhizhou) for providing [USBPorts.kext](https://github.com/kkzzhizhou/S200H_I7-8750H_Hackintosh/tree/master/EFI/CLOVER/kexts/Other/USBPorts.kext)
