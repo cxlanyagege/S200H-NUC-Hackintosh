@@ -16,6 +16,11 @@ The following configurations may not be identical. You may ask sellers for a qua
 | Sound Card     | Realtek ALC 269VC (layout-id:188) |
 | Wireless Card  | Broadcom 943602CS                 |
 
+## Supported macOS Versions
+
+# macOS Mojave
+# macOS Catalina
+
 ## What is working
 
 - Regular boot by Clover
