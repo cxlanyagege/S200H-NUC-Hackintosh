@@ -20,7 +20,7 @@ The following configurations may not be identical. You may ask sellers for a qua
 
 - macOS High Sierra 10.13.6 (DID NOT TEST)
 - macOS Mojave
-- macOS Catalina
+- macOS Catalina Beta
 
 ## What is working
 
