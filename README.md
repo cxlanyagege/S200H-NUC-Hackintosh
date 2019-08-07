@@ -4,6 +4,7 @@ Pathway for tasting macOS on your Soarsea mini PC
 ## Configuration
 
 The following configurations may not be identical. You may ask sellers for a quasi-system if you want more customization
+
 | Specifications | Details                               |
 | -------------- | ---------------------------------- |
 | PC Model       | Soarsea mini PC                   |
