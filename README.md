@@ -4,7 +4,7 @@ Pathway for tasting macOS on your Soarsea mini PC
 ## Configuration
 
 The following configurations may not be identical. You may ask sellers for a quasi-system if you want more customization
-| Specifications | Details |
+| Specifications | Details                             |
 | -------------- | --------------------------------- |
 | PC Model       | Soarsea mini PC                   |
 | Processor      | Intel Core i9-8950HK/i7/i5        |
