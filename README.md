@@ -18,8 +18,9 @@ The following configurations may not be identical. You may ask sellers for a qua
 
 ## Supported macOS Versions
 
-# macOS Mojave
-# macOS Catalina
+- macOS High Sierra 10.13.6 (DID NOT TEST)
+- macOS Mojave
+- macOS Catalina
 
 ## What is working
 
@@ -35,7 +36,7 @@ The following configurations may not be identical. You may ask sellers for a qua
 ## What is not working
 
 - i5 and i7 models mat not work
-  - I did not test other CPU models, you should take your own risk for testing that
+  - I did not test other CPU models, trying these at your own risk
 - Power button when host runs macOS
 - Slightly artifacts when booting into the second stage
 - Some USB ports may not work
