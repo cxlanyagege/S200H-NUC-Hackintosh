@@ -8,7 +8,7 @@ The following configurations may not be identical. You may ask sellers for a qua
 | Specifications | Details                           |
 | -------------- | --------------------------------- |
 | PC Model       | Soarsea mini PC                   |
-| Processor      | Intel Core i9-8950HK / i7 / i5    |
+| Processor      | Intel Core i9-8950HK              |
 | Memory         | 32GB Crucial DDR4 2667MHz         |
 | Hard Disk      | Samsung 970 EVO 1TB               |
 | Graphics       | Intel UHD Graphics 630            |
@@ -18,7 +18,7 @@ The following configurations may not be identical. You may ask sellers for a qua
 
 ## Supported macOS Versions
 
-- macOS High Sierra 10.13.6 (DID NOT TEST)
+- macOS High Sierra 10.13.6 (HAVE NOT TESTED YET)
 - macOS Mojave
 - macOS Catalina Beta
 
