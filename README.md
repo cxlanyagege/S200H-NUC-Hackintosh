@@ -38,6 +38,7 @@ The following configurations may not be identical. You may ask sellers for a qua
 - i5 and i7 models mat not work
   - I did not test other CPU models, trying these at your own risk
 - Power button when host runs macOS
+- Slightly slower boot speed compared to others
 - Slightly artifacts when booting into the second stage
 - Some USB ports may not work
   - I use BCM943602CS in M.2 Key M slot instead of native card slot, the USB bus should work according to [kkzzhizhou](https://github.com/kkzzhizhou)'s report
@@ -48,6 +49,10 @@ The following configurations may not be identical. You may ask sellers for a qua
 - USB Keyboard does not work well
   - As for me, it happens, still pending
 - Maybe more, you tell me
+
+## Where to buy
+
+- 
 
 ## Credits
 
