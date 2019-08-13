@@ -1,6 +1,8 @@
 # Soarsea-i9-8950HK-Hackintosh
 Pathway for tasting macOS on your Soarsea mini PC
 
+[English](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/blob/master/README.md) | [中文](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/blob/master/README_CN.md)
+
 ## Configuration
 
 The following configurations may not be identical. You may ask sellers for a quasi-system if you want more customization
