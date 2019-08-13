@@ -37,10 +37,7 @@ The following configurations may not be identical. You may ask sellers for a qua
 
 - Power button when host runs macOS
 - Slightly artifacts when booting into the second stage
-- Display Port is not working
-  - I use HDMI, you can modify "Framebuffer" to enable DP port
-- HDMI Audio may not work
-  - Have not test it yet
+- Some apps may not work after waking up from sleeping (Chrome etc.)
 - Maybe more, you tell me
 
 ## Where to buy
@@ -52,6 +49,8 @@ The following configurations may not be identical. You may ask sellers for a qua
 
 - Generally, i5 and i7 models will work fine by using this EFI file directly, but I have not tested them yet, please trying themselves at your own risk
 - I use BCM943602CS in M.2 Key M slot instead of native card slot, the USB bus should work according to [kkzzhizhou](https://github.com/kkzzhizhou)'s report, if it does not work, please go to "Issues"
+- Since testing limits, I use HDMI only, if you want to use DP, you can modify "Framebuffer" to enable DP port
+- I recently study in a foreign country, updating of this repo will be slower, thanks for your understanding :)
 
 ## Credits
 
