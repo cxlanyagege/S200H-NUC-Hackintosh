@@ -12,14 +12,13 @@ The following configurations may not be identical. You may ask sellers for a qua
 | Memory         | 32GB Crucial DDR4 2667MHz         |
 | Hard Disk      | Samsung 970 EVO 1TB               |
 | Graphics       | Intel UHD Graphics 630            |
-| Monitor        | LG IPS FullHD 1080p               |
+| Monitor        | LG IPS Full HD 1080p              |
 | Sound Card     | Realtek ALC 269VC (layout-id:188) |
 | Wireless Card  | Broadcom 943602CS                 |
 | Ethernet       | Realtek RTL8168H                  |
 
 ## Supported macOS Versions
 
-- macOS High Sierra 10.13.6 (HAVE NOT TESTED YET)
 - macOS Mojave
 - macOS Catalina Beta
 
