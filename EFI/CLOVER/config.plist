@@ -122,7 +122,7 @@
 		<key>NoEarlyProgress</key>
 		<true/>
 		<key>Timeout</key>
-		<integer>4</integer>
+		<integer>3</integer>
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>
@@ -162,8 +162,6 @@
 				<data>
 				mz4AAA==
 				</data>
-				<key>device_type</key>
-				<string>VGA compatible controller</string>
 				<key>disable-external-gpu</key>
 				<data>
 				AQAAAA==
@@ -260,8 +258,6 @@
 				<data>
 				AAAAgA==
 				</data>
-				<key>model</key>
-				<string>Intel UHD Graphics 630</string>
 			</dict>
 		</dict>
 		<key>USB</key>
