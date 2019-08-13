@@ -36,25 +36,23 @@ The following configurations may not be identical. You may ask sellers for a qua
 
 ## What is not working
 
-- i5 and i7 models may not work
-  - I did not test other CPU models, trying these at your own risk
 - Power button when host runs macOS
-- Slightly slower boot speed compared to others
 - Slightly artifacts when booting into the second stage
-- Some USB ports may not work
-  - I use BCM943602CS in M.2 Key M slot instead of native card slot, the USB bus should work according to [kkzzhizhou](https://github.com/kkzzhizhou)'s report
 - Display Port is not working
   - I use HDMI, you can modify "Framebuffer" to enable DP port
 - HDMI Audio may not work
   - Have not test it yet
-- USB Keyboard does not work well
-  - As for me, it happens, still pending
 - Maybe more, you tell me
 
 ## Where to buy
 
 - [Taobao](https://item.taobao.com/item.htm?spm=a230r.1.14.20.47f24c1aV8myCD&id=564185703343&ns=1&abbucket=14#detail)
   - If you are not in mainland of China, Taobao does not ship oversea directly. You may need to find agents or someone else takes it from China
+  
+## Notice
+
+- Generally, i5 and i7 models will work fine by using this EFI file directly, but I have not tested them yet, please trying themselves at your own risk
+- I use BCM943602CS in M.2 Key M slot instead of native card slot, the USB bus should work according to [kkzzhizhou](https://github.com/kkzzhizhou)'s report, if it does not work, please go to "Issues"
 
 ## Credits
 
