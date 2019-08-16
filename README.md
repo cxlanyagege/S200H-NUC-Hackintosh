@@ -28,6 +28,7 @@ The following configurations may not be identical. You may ask sellers for a qua
 
 - Power button when host runs macOS
 - Some apps may not work after waking up from sleeping (Chrome etc.)
+  - According to [tonymacx86.com](https://www.tonymacx86.com/threads/eglobal-s200-nuc-intel-i7-8750h-mini-pc-compatible.276741/page-4), this situation only appears when connecting display by HDMI. I would confirm this later once I get a adapter for mDP to VGA and move it to "Notice", since there had been already such a lot of people concentrating on it without any solution so far yet
 - Maybe more, you tell me
 
 ## Where to buy
