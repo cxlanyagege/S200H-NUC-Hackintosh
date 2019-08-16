@@ -33,6 +33,10 @@
 ## 购买途径
 
 - [淘宝](https://item.taobao.com/item.htm?spm=a230r.1.14.20.47f24c1aV8myCD&id=564185703343&ns=1&abbucket=14#detail)
+
+## 更新日志
+
+- [更新日志](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/blob/master/Changelog_CN.md) 包含更多详细的发布信息
   
 ## 注意事项
 

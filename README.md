@@ -34,6 +34,10 @@ The following configurations may not be identical. You may ask sellers for a qua
 
 - [Taobao](https://item.taobao.com/item.htm?spm=a230r.1.14.20.47f24c1aV8myCD&id=564185703343&ns=1&abbucket=14#detail)
   - If you are not in mainland of China, Taobao does not ship oversea directly. You may need to find agents or someone else takes it from China
+
+## Changelog
+
+- You can view [Changelog](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/blob/master/Changelog.md) for more detailed release information
   
 ## Notice
 
