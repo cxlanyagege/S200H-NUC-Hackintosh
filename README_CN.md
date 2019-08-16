@@ -1,7 +1,7 @@
 # Soarsea-i9-8950HK-黑苹果教程
 让你的深水宝迷你主机吃上黑苹果 (S200H)
 
-[English](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/blob/master/README.md) | [中文](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/blob/master/README_CN.md)
+[English](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/blob/master/README.md) | 中文
 
 ## 配置
 

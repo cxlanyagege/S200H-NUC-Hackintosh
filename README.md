@@ -1,7 +1,7 @@
 # Soarsea-i9-8950HK-Hackintosh
 Installing macOS on your Soarsea mini PC (S200H)
 
-[English](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/blob/master/README.md) | [中文](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/blob/master/README_CN.md)
+English | [中文](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/blob/master/README_CN.md)
 
 ## Configuration
 
