@@ -8,6 +8,13 @@
 		<true/>
 		<key>DSDT</key>
 		<dict>
+			<key>Fixes</key>
+			<dict>
+				<key>AddDTGP</key>
+				<true/>
+				<key>AddIMEI</key>
+				<true/>
+			</dict>
 			<key>Patches</key>
 			<array>
 				<dict>
@@ -50,20 +57,6 @@
 					<key>Replace</key>
 					<data>
 					RUNfXw==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change HECI to IMEI, optionally pair with SSDT-IMEI.aml</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					SEVDSQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					SU1FSQ==
 					</data>
 				</dict>
 				<dict>
@@ -122,7 +115,7 @@
 		<key>NoEarlyProgress</key>
 		<true/>
 		<key>Timeout</key>
-		<integer>3</integer>
+		<integer>2</integer>
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>
@@ -137,18 +130,65 @@
 		<false/>
 		<key>Properties</key>
 		<dict>
+			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal</string>
+				<key>device_type</key>
+				<string>Serial Bus Controller</string>
+				<key>model</key>
+				<string>100 Series/C230 Series Chipset Family USB 3.0 xHCI Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x14,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal</string>
+				<key>device_type</key>
+				<string>Signal Processing Controller</string>
+				<key>model</key>
+				<string>100 Series/C230 Series Chipset Family Thermal Subsystem</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1c,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal</string>
+				<key>device_type</key>
+				<string>Network Controller</string>
+				<key>model</key>
+				<string>RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal</string>
+				<key>device_type</key>
+				<string>Memory Controller</string>
+				<key>model</key>
+				<string>100 Series/C230 Series Chipset Family Power Management Controller</string>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal</string>
 				<key>device_type</key>
-				<string>Audio device</string>
+				<string>Audio Device</string>
 				<key>layout-id</key>
 				<data>
 				vAAAAA==
 				</data>
 				<key>model</key>
 				<string>CM238 HD Audio Controller</string>
+				<key>name</key>
+				<string>HDEF</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal</string>
+				<key>device_type</key>
+				<string>Serial Bus Controller</string>
+				<key>model</key>
+				<string>100 Series/C230 Series Chipset Family SMBus</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
@@ -162,10 +202,8 @@
 				<data>
 				mz4AAA==
 				</data>
-				<key>disable-external-gpu</key>
-				<data>
-				AQAAAA==
-				</data>
+				<key>device_type</key>
+				<string>Graphics Device</string>
 				<key>enable-hdmi-dividers-fix</key>
 				<data>
 				AQAAAA==
@@ -182,9 +220,17 @@
 				<data>
 				AQAAAA==
 				</data>
+				<key>framebuffer-con0-flags</key>
+				<data>
+				hwEAAA==
+				</data>
+				<key>framebuffer-con0-index</key>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-con0-pipe</key>
 				<data>
-				EgAAAA==
+				CgAAAA==
 				</data>
 				<key>framebuffer-con0-type</key>
 				<data>
@@ -192,7 +238,7 @@
 				</data>
 				<key>framebuffer-con1-busid</key>
 				<data>
-				AAAAAA==
+				BQAAAA==
 				</data>
 				<key>framebuffer-con1-enable</key>
 				<data>
@@ -200,43 +246,15 @@
 				</data>
 				<key>framebuffer-con1-flags</key>
 				<data>
-				IAAAAA==
+				hwEAAA==
 				</data>
 				<key>framebuffer-con1-index</key>
 				<data>
-				/////w==
-				</data>
-				<key>framebuffer-con1-pipe</key>
-				<data>
-				AAAAAA==
+				AgAAAA==
 				</data>
 				<key>framebuffer-con1-type</key>
 				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-con2-busid</key>
-				<data>
-				AAAAAA==
-				</data>
-				<key>framebuffer-con2-enable</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-con2-flags</key>
-				<data>
-				IAAAAA==
-				</data>
-				<key>framebuffer-con2-index</key>
-				<data>
-				/////w==
-				</data>
-				<key>framebuffer-con2-pipe</key>
-				<data>
-				AAAAAA==
-				</data>
-				<key>framebuffer-con2-type</key>
-				<data>
-				AQAAAA==
+				AAQAAA==
 				</data>
 				<key>framebuffer-fbmem</key>
 				<data>
@@ -248,7 +266,7 @@
 				</data>
 				<key>framebuffer-portcount</key>
 				<data>
-				AQAAAA==
+				AgAAAA==
 				</data>
 				<key>framebuffer-stolenmem</key>
 				<data>
@@ -258,6 +276,12 @@
 				<data>
 				AAAAgA==
 				</data>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>model</key>
+				<string>Intel UHD Graphics 630</string>
+				<key>name</key>
+				<string>IGPU</string>
 			</dict>
 		</dict>
 		<key>USB</key>
