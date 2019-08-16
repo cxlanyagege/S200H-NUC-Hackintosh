@@ -28,6 +28,7 @@
 
 - 电源按钮不起作用
 - 睡眠唤醒后部分软件不正常工作（Chrome等）
+  - 根据[tonymacx86.com](https://www.tonymacx86.com/threads/eglobal-s200-nuc-intel-i7-8750h-mini-pc-compatible.276741/page-4)上的汇报，该问题只出现在HDMI连接上，一旦我有mDP转VGA转换线并测试证实后，我会把这个问题放到“注意事项”中，因为它已经足够被其他购买者重视，但至今仍未有解决方案
 - 若发现更多错误，请报告给我
 
 ## 购买途径
