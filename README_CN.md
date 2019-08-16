@@ -36,7 +36,7 @@
 
 ## 更新日志
 
-- [更新日志](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/blob/master/Changelog_CN.md) 包含更多详细的发布信息
+[更新日志](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/blob/master/Changelog_CN.md) 包含更多详细的发布信息
   
 ## 注意事项
 

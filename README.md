@@ -37,7 +37,7 @@ The following configurations may not be identical. You may ask sellers for a qua
 
 ## Changelog
 
-- You can view [Changelog](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/blob/master/Changelog.md) for more detailed release information
+You can view [Changelog](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/blob/master/Changelog.md) for more detailed release information
   
 ## Notice
 
