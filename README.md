@@ -1,5 +1,5 @@
 # Soarsea-i9-8950HK-Hackintosh
-Pathway for tasting macOS on your Soarsea mini PC
+Installing macOS on your Soarsea mini PC (S200H)
 
 [English](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/blob/master/README.md) | [中文](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/blob/master/README_CN.md)
 
@@ -24,21 +24,9 @@ The following configurations may not be identical. You may ask sellers for a qua
 - macOS Mojave
 - macOS Catalina Beta
 
-## What is working
-
-- Regular boot by Clover
-- Native CPU power management
-- Native GPU, full QE/CI
-- Native Sleep / PowerNap
-- Native built-in sould
-- Native NVMe SSD Support
-- Native WIFI / Bluetooth / Ethernet
-- USB3.0 / 2.0 / Type-C works fine, limited useless ports by USBPorts.kext
-
 ## What is not working
 
 - Power button when host runs macOS
-- Slightly artifacts when booting into the second stage
 - Some apps may not work after waking up from sleeping (Chrome etc.)
 - Maybe more, you tell me
 
@@ -51,9 +39,7 @@ The following configurations may not be identical. You may ask sellers for a qua
 
 - Generally, i5 and i7 models will work fine by using this EFI file directly, but I have not tested them yet, please trying themselves at your own risk
 - I use BCM943602CS in M.2 Key M slot instead of native card slot, the USB bus should work according to [kkzzhizhou](https://github.com/kkzzhizhou)'s report, if it does not work, please go to "Issues"
-- Since testing limits, I use HDMI only, if you want to use DP, you can modify "Framebuffer" to enable DP port
-- I recently study in a foreign country, updating of this repo will be slower, thanks for your understanding :)
 
 ## Credits
 
-- Thanks to [kkzzhizhou](https://github.com/kkzzhizhou) for providing [USBPorts.kext](https://github.com/kkzzhizhou/S200H_I7-8750H_Hackintosh/tree/master/EFI/CLOVER/kexts/Other/USBPorts.kext)
+- Thanks to [kkzzhizhou](https://github.com/kkzzhizhou) for providing [USBPorts.kext](https://github.com/kkzzhizhou/S200H_I7-8750H_Hackintosh/tree/master/EFI/CLOVER/kexts/Other/USBPorts.kext) and Framebuffer for both HDMI and DP port
