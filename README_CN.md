@@ -36,7 +36,7 @@
 - macOS Mojave
 - macOS Catalina
 
-[下载最新版](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/releases/download/v1.1/Soarsea-EFI-v1.1.zip) | [发布](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/releases) | [更新日志](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/blob/master/Changelog.md)
+[下载最新版](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/releases/download/v1.1/Soarsea-EFI-v1.1.zip) | [发布](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/releases) | [更新日志](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/blob/master/Changelog_CN.md)
   
 ## 注意事项
 
