@@ -50,7 +50,7 @@ The continues maintenance and release are all made for free, but you can reward 
 
 | WeChat                                                                                             | Alipay                                                                                             |
 | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| ![Wechat](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/raw/master/Others/Wechat.png) | ![Alipay](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/raw/master/Others/Alipay.png) |
+| ![Wechat](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/raw/master/Others/Wechat.png) | ![Alipay](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/raw/master/Others/Alipay.jpeg) |
 
 
 ## Credits
