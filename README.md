@@ -15,7 +15,7 @@ The following configurations may not be identical. You may ask sellers for a qua
 | Hard Disk      | Samsung 970 EVO 1TB               |
 | Graphics       | Intel UHD Graphics 630            |
 | Monitor        | LG IPS Full HD 1080p              |
-| Sound Card     | Realtek ALC269VC (layout-id:188) |
+| Sound Card     | Realtek ALC269VC (layout-id:188)  |
 | Wireless Card  | Broadcom 943602CS                 |
 | Ethernet       | Realtek RTL8168H                  |
 
@@ -37,16 +37,16 @@ The following configurations may not be identical. You may ask sellers for a qua
 - macOS Mojave
 - macOS Catalina
 
-[Download latest](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/releases/download/v1.1/Soarsea-EFI-v1.1.zip) | [Releases](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/releases) | [Changelog](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/blob/master/Changelog.md)
+[Download latest EFI](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/releases/download/v1.1/Soarsea-EFI-v1.1.zip) | [Releases](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/releases) | [Changelog](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/blob/master/Changelog.md)
   
 ## Notice
 
 - Generally, i5 and i7 models will work fine by using this EFI file directly, but I have not tested them yet, please trying themselves at your own risk
-- I use BCM943602CS in M.2 Key M slot instead of native card slot, the USB bus should work according to [kkzzhizhou](https://github.com/kkzzhizhou)'s report, if it does not work, please go to "Issues"
+- I use BCM943602CS in M.2 Key M slot instead of native card slot, the USB bus should work according to [kkzzhizhou](https://github.com/kkzzhizhou)'s report, if it does not work, please go to [Issues](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/issues)
 
 ## A reward
 
-The continues maintenance and release are all made for free, but you can reward me if you want
+The continuous maintenance and updates are all made for free, but you can reward me if you want
 
 | WeChat                                                                                             | Alipay                                                                                             |
 | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
