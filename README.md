@@ -22,10 +22,16 @@ The following configurations may not be identical. You may ask sellers for a qua
 ## What is not working
 
 - Power button when host runs macOS
-- Some apps may not work after waking up from sleeping (Chrome etc.)
-  - According to [tonymacx86.com](https://www.tonymacx86.com/threads/eglobal-s200-nuc-intel-i7-8750h-mini-pc-compatible.276741/page-4), this situation only appears when connecting display by HDMI. I would confirm this later once I get a adapter for mDP to VGA and move it to "Notice", since there had been already such a lot of people concentrating on it without any solution so far yet
+- Some apps may not work after waking up (eg. Chrome etc)
+  - I test it out by myself, both HDMI and mDP have this issue
   - According to [Issue #6](https://github.com/kkzzhizhou/S200H_I7-8750H_Hackintosh/issues/6), [kkzzhizhou](https://github.com/kkzzhizhou) once experienced randomly apps stucked, just like happened situation after waking up
 - Maybe more, you tell me
+
+## What is next
+
+- [OpenCore](https://github.com/acidanthera/OpenCorePkg)
+- Patch the remaining ACPI tables using hotpatch
+- Try my best to solve "sleeping" problem
 
 ## Where to buy
 

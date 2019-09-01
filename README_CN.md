@@ -19,13 +19,19 @@
 | 无线网卡   | Broadcom 943602CS                 |
 | 以太网卡   | Realtek RTL8168H                  |
 
-## 不正常工作
+## 不正常工作的
 
 - 电源按钮不起作用
 - 睡眠唤醒后部分软件不正常工作（Chrome等）
-  - 根据[tonymacx86.com](https://www.tonymacx86.com/threads/eglobal-s200-nuc-intel-i7-8750h-mini-pc-compatible.276741/page-4)上的汇报，该问题只出现在HDMI连接上，一旦我有mDP转VGA转换线并测试证实后，我会把这个问题放到“注意事项”中，因为它已经足够被其他购买者重视，但至今仍未有解决方案
+  - 经过我的测试，HDMI和mDP都有此问题
   - 根据[Issue #6](https://github.com/kkzzhizhou/S200H_I7-8750H_Hackintosh/issues/6), [kkzzhizhou](https://github.com/kkzzhizhou)在正常使用情况下遇到过与睡眠唤醒后一样的现象
 - 若发现更多错误，请报告给我
+
+## 下一步做什么
+
+- [OpenCore](https://github.com/acidanthera/OpenCorePkg)
+- 用hotpatch修复剩余的ACPI表
+- 尽可能修复睡眠唤醒问题
 
 ## 购买途径
 
