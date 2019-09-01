@@ -1,7 +1,7 @@
-# Soarsea-i9-8950HK-黑苹果教程
+# S200H-i9-8950HK-黑苹果教程
 让你的深水宝迷你主机吃上黑苹果 (S200H)
 
-[English](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/blob/master/README.md) | 中文
+[English](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/blob/master/README.md) | 中文
 
 ## 配置
 
@@ -9,7 +9,7 @@
 
 | 硬件      | 规格                               |
 | --------- | --------------------------------- |
-| 电脑型号   | Soarsea mini PC                   |
+| 电脑型号   | S200H mini PC                   |
 | 中央处理器 | Intel Core i9-8950HK              |
 | 内存      | 32GB Crucial DDR4 2667MHz         |
 | 硬盘      | Samsung 970 EVO 1TB               |
@@ -36,7 +36,7 @@
 - macOS Mojave
 - macOS Catalina
 
-[下载最新版](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/releases/download/v1.1/Soarsea-EFI-v1.1.zip) | [发布](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/releases) | [更新日志](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/blob/master/Changelog_CN.md)
+[下载最新版](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/releases/download/v1.1/S200H-EFI-v1.1.zip) | [发布](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/releases) | [更新日志](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/blob/master/Changelog_CN.md)
   
 ## 注意事项
 
@@ -49,7 +49,7 @@
 
 | 微信                                                                                             | 支付宝                                                                                             |
 | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| ![Wechat](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/raw/master/Others/Wechat.png) | ![Alipay](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/raw/master/Others/Alipay.jpeg) |
+| ![Wechat](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/raw/master/Others/Wechat.png) | ![Alipay](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/raw/master/Others/Alipay.jpeg) |
 
 ## 鸣谢
 

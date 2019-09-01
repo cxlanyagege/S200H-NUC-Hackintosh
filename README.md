@@ -1,7 +1,7 @@
-# Soarsea-i9-8950HK-Hackintosh
-Installing macOS on your Soarsea mini PC (S200H)
+# S200H-i9-8950HK-Hackintosh
+Installing macOS on your S200H
 
-English | [中文](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/blob/master/README_CN.md)
+English | [中文](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/blob/master/README_CN.md)
 
 ## Configuration
 
@@ -9,7 +9,7 @@ The following configurations may not be identical. You may ask sellers for a qua
 
 | Specifications | Details                           |
 | -------------- | --------------------------------- |
-| PC Model       | Soarsea mini PC                   |
+| PC Model       | S200H mini PC                     |
 | Processor      | Intel Core i9-8950HK              |
 | Memory         | 32GB Crucial DDR4 2667MHz         |
 | Hard Disk      | Samsung 970 EVO 1TB               |
@@ -37,12 +37,12 @@ The following configurations may not be identical. You may ask sellers for a qua
 - macOS Mojave
 - macOS Catalina
 
-[Download latest EFI](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/releases/download/v1.1/Soarsea-EFI-v1.1.zip) | [Releases](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/releases) | [Changelog](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/blob/master/Changelog.md)
+[Download latest EFI](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/releases/download/v1.1/S200H-EFI-v1.1.zip) | [Releases](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/releases) | [Changelog](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/blob/master/Changelog.md)
   
 ## Notice
 
 - Generally, i5 and i7 models will work fine by using this EFI file directly, but I have not tested them yet, please trying themselves at your own risk
-- I use BCM943602CS in M.2 Key M slot instead of native card slot, the USB bus should work according to [kkzzhizhou](https://github.com/kkzzhizhou)'s report, if it does not work, please go to [Issues](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/issues)
+- I use BCM943602CS in M.2 Key M slot instead of native card slot, the USB bus should work according to [kkzzhizhou](https://github.com/kkzzhizhou)'s report, if it does not work, please go to [Issues](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/issues)
 
 ## A reward
 
@@ -50,7 +50,7 @@ The continuous maintenance and updates are all made for free, but you can reward
 
 | WeChat                                                                                             | Alipay                                                                                             |
 | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| ![Wechat](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/raw/master/Others/Wechat.png) | ![Alipay](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/raw/master/Others/Alipay.jpeg) |
+| ![Wechat](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/raw/master/Others/Wechat.png) | ![Alipay](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/raw/master/Others/Alipay.jpeg) |
 
 
 ## Credits

@@ -1,6 +1,6 @@
-# Soarsea EFI 更新日志
+# S200H EFI 更新日志
 
-[English](https://github.com/EngLearnsh/Soarsea-i9-8950HK-Hackintosh/blob/master/Changelog.md) | 中文
+[English](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/blob/master/Changelog.md) | 中文
 
 - 2019-08-16
   - 更新 `Clover` 5045
