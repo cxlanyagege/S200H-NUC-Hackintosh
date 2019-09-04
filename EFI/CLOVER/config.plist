@@ -256,10 +256,6 @@
 				<data>
 				AAQAAA==
 				</data>
-				<key>framebuffer-fbmem</key>
-				<data>
-				AACQAA==
-				</data>
 				<key>framebuffer-patch-enable</key>
 				<data>
 				AQAAAA==
@@ -267,14 +263,6 @@
 				<key>framebuffer-portcount</key>
 				<data>
 				AgAAAA==
-				</data>
-				<key>framebuffer-stolenmem</key>
-				<data>
-				AAAwAQ==
-				</data>
-				<key>framebuffer-unifiedmem</key>
-				<data>
-				AAAAgA==
 				</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
