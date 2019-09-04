@@ -2,6 +2,10 @@
 
 [English](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/blob/master/Changelog.md) | 中文
 
+- 2019-09-04 v1.2 Beta 1
+  - 支持4K分辨率
+  - 移除 `framebuffer-fbmem`, `framebuffer-stolenmem` 和 `framebuffer-unifiedmem` 以测试显卡的稳定性
+
 - 2019-08-16
   - 更新 `Clover` 5045
   - 更新 `Lilu` 1.3.8
@@ -17,5 +21,5 @@
   - 增加 PCI 设备属性, 从而让macOS可以更好地识别它们
   - 减少Clover启动等待时间到2秒
 
-- 2019-8-7
+- 2019-08-07
   - 初版发布

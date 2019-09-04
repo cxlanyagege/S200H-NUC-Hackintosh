@@ -2,7 +2,11 @@
 
 English | [中文](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/blob/master/Changelog_CN.md)
 
-- 2019-08-16
+- 2019-09-04 v1.2 Beta 1
+  - Support 4K resolution
+  - Remove `framebuffer-fbmem`, `framebuffer-stolenmem` and `framebuffer-unifiedmem` to test stability on graphics
+
+- 2019-08-16 v1.1
   - Update `Clover` 5045
   - Update `Lilu` 1.3.8
   - Update `AppleALC` 1.4.0
@@ -17,5 +21,5 @@ English | [中文](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/blob
   - Add PCI devices properties, which will have a better indication in macOS for these devices
   - Decrease boot volume selection timeout to 2 seconds
 
-- 2019-8-7
+- 2019-08-07 v1.0
   - Initial release
