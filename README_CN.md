@@ -64,3 +64,4 @@
 - 感谢 [apianti](https://sourceforge.net/u/apianti), [blackosx](https://sourceforge.net/u/blackosx), [blusseau](https://sourceforge.net/u/blusseau), [dmazar](https://sourceforge.net/u/dmazar), 以及 [slice2009](https://sourceforge.net/u/slice2009) 提供了 [Clover](https://sourceforge.net/projects/cloverefiboot)
 - 感谢 [kkzzhizhou](https://github.com/kkzzhizhou) 提供了 [USBPorts.kext](https://github.com/kkzzhizhou/S200H_I7-8750H_Hackintosh/tree/master/EFI/CLOVER/kexts/Other/USBPorts.kext) 和全部接口的Framebuffer
 - 感谢 [daliansky](https://github.com/daliansky/Hackintosh) 以及 [stevezhengshiqi](https://github.com/stevezhengshiqi) 提供了大量中文版本的黑苹果资料，和 [Hackintool](https://github.com/daliansky/Hackintosh)
+- 感谢 [Everlasting](https://www.zhihu.com/people/3d7d974acb5eb086a0c378402ae0d100) 提出的无法正常连接4K显示器的问题
