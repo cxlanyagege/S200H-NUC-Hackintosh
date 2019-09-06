@@ -19,6 +19,14 @@
 | 无线网卡   | Broadcom 943602CS                 |
 | 以太网卡   | Realtek RTL8168H                  |
 
+## BIOS设置
+
+- Secure Boot -> Disabled
+- VT-d -> Enabled
+- Quiet Boot -> Enabled
+- Fast Boot -> Disabled
+- CSM Support -> Disabled
+
 ## 不正常工作的
 
 - 电源按钮不起作用
@@ -33,16 +41,22 @@
 - 用hotpatch修复剩余的ACPI表
 - 尽可能修复睡眠唤醒问题
 
-## 购买途径
-
-- [淘宝](https://item.taobao.com/item.htm?spm=a230r.1.14.20.47f24c1aV8myCD&id=564185703343&ns=1&abbucket=14#detail)
-
-## 支持与下载
+## 支持系统与下载
 
 - macOS Mojave
 - macOS Catalina
 
 [下载最新版](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/releases/download/v1.1/S200H-EFI-v1.1.zip) | [发布](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/releases) | [更新日志](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/blob/master/Changelog_CN.md)
+
+## 购买途径
+
+- [淘宝](https://item.taobao.com/item.htm?spm=a230r.1.14.20.47f24c1aV8myCD&id=564185703343&ns=1&abbucket=14#detail)
+- [阿里速卖通](https://www.aliexpress.com/item/32974757463.html?spm=2114.search0104.3.15.3df35489p80342&ws_ab_test=searchweb0_0,searchweb201602_6_10065_10130_10068_10547_319_317_10548_10696_10192_10190_453_10084_454_10083_10618_10307_10820_10301_10821_10303_537_536_10059_10884_10887_321_322_10103,searchweb201603_52,ppcSwitch_0&algo_expid=7ccf7ab0-f5cf-4f12-95f8-5b616c4e6775-2&algo_pvid=7ccf7ab0-f5cf-4f12-95f8-5b616c4e6775)
+
+## 讨论
+
+- [Tonymacx86](https://www.tonymacx86.com/threads/eglobal-s200-nuc-intel-i7-8750h-mini-pc-compatible.276741)
+- [知乎](https://zhuanlan.zhihu.com/p/65263547)
   
 ## 注意事项
 

@@ -19,6 +19,14 @@ The following configurations may not be identical. You may ask sellers for a qua
 | Wireless Card  | Broadcom 943602CS                 |
 | Ethernet       | Realtek RTL8168H                  |
 
+## BIOS Configuration
+
+- Secure Boot -> Disabled
+- VT-d -> Enabled
+- Quiet Boot -> Enabled
+- Fast Boot -> Disabled
+- CSM Support -> Disabled
+
 ## What is not working
 
 - Power button when host runs macOS
@@ -33,17 +41,23 @@ The following configurations may not be identical. You may ask sellers for a qua
 - Patch the remaining ACPI tables using hotpatch
 - Try my best to solve "sleeping" problem
 
-## Where to buy
-
-- [Taobao](https://item.taobao.com/item.htm?spm=a230r.1.14.20.47f24c1aV8myCD&id=564185703343&ns=1&abbucket=14#detail)
-  - If you are not in mainland of China, Taobao may not ship oversea directly. You may need to find agents or someone else takes it from China
-
-## Supports & Downloads
+## Supporting OS & Downloads
 
 - macOS Mojave
 - macOS Catalina
 
 [Download latest EFI](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/releases/download/v1.1/S200H-EFI-v1.1.zip) | [Releases](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/releases) | [Changelog](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/blob/master/Changelog.md)
+
+## Where to buy
+
+- [Taobao](https://item.taobao.com/item.htm?spm=a230r.1.14.20.47f24c1aV8myCD&id=564185703343&ns=1&abbucket=14#detail)
+  - If you are not in mainland of China, Taobao may not ship oversea directly. You may need to find agents or someone else takes it from China
+- [AliExpress](https://www.aliexpress.com/item/32974757463.html?spm=2114.search0104.3.15.3df35489p80342&ws_ab_test=searchweb0_0,searchweb201602_6_10065_10130_10068_10547_319_317_10548_10696_10192_10190_453_10084_454_10083_10618_10307_10820_10301_10821_10303_537_536_10059_10884_10887_321_322_10103,searchweb201603_52,ppcSwitch_0&algo_expid=7ccf7ab0-f5cf-4f12-95f8-5b616c4e6775-2&algo_pvid=7ccf7ab0-f5cf-4f12-95f8-5b616c4e6775)
+
+## Discussion
+
+- [Tonymacx86](https://www.tonymacx86.com/threads/eglobal-s200-nuc-intel-i7-8750h-mini-pc-compatible.276741)
+- [Zhihu](https://zhuanlan.zhihu.com/p/65263547)
   
 ## Notice
 
