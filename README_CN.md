@@ -41,6 +41,7 @@
 - macOS Catalina
 
 [下载最新版](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/releases/download/v1.1/S200H-EFI-v1.1.zip) | [发布](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/releases) | [更新日志](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/blob/master/Changelog_CN.md)
+
 你需要承担尝试预览版后的一切后果，包括硬件损坏等，而不是作者
 
 ## 购买途径
