@@ -1,7 +1,7 @@
-# S200H-i9-8950HK-Hackintosh
+# S200H-NUC-Hackintosh
 Installing macOS on your S200H
 
-English | [中文](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/blob/master/README_CN.md)
+English | [中文](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/blob/master/README_CN.md)
 
 ## Configuration
 
@@ -9,8 +9,8 @@ The following configurations may not be identical. You may ask sellers for a qua
 
 | Specifications | Details                           |
 | -------------- | --------------------------------- |
-| PC Model       | S200H mini PC                     |
-| Processor      | Intel Core i9-8950HK              |
+| PC Model       | S200H NUC mini PC                 |
+| Processor      | Intel Core i9/i7/i5               |
 | Memory         | 32GB Crucial DDR4 2667MHz         |
 | Hard Disk      | Samsung 970 EVO 1TB               |
 | Graphics       | Intel UHD Graphics 630            |
@@ -35,18 +35,13 @@ The following configurations may not be identical. You may ask sellers for a qua
   - According to [Issue #6](https://github.com/kkzzhizhou/S200H_I7-8750H_Hackintosh/issues/6), [kkzzhizhou](https://github.com/kkzzhizhou) once experienced randomly apps stucked, just like happened situation after waking up
 - Maybe more, you tell me
 
-## What is next
-
-- [OpenCore](https://github.com/acidanthera/OpenCorePkg)
-- Patch the remaining ACPI tables using hotpatch
-- Try my best to solve "sleeping" problem
-
 ## Supporting OS & Downloads
 
 - macOS Mojave
 - macOS Catalina
 
-[Download latest EFI](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/releases/download/v1.1/S200H-EFI-v1.1.zip) | [Releases](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/releases) | [Changelog](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/blob/master/Changelog.md)
+[Download latest EFI](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/releases/download/v1.1/S200H-EFI-v1.1.zip) | [Releases](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/releases) | [Changelog](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/blob/master/Changelog.md)
+* Pre-release should only be tried at your own risk, author would take void on your hardware damages
 
 ## Where to buy
 
@@ -61,8 +56,7 @@ The following configurations may not be identical. You may ask sellers for a qua
   
 ## Notice
 
-- Generally, i5 and i7 models will work fine by using this EFI file directly, but I have not tested them yet, please trying themselves at your own risk
-- I use BCM943602CS in M.2 Key M slot instead of native card slot, the USB bus should work according to [kkzzhizhou](https://github.com/kkzzhizhou)'s report, if it does not work, please go to [Issues](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/issues)
+- I have decided not to spend too much time on this repo anymore, if someone wants to take it over, please contact me. I may update it once there meets huge updates on macOS, Clover or other kexts
 
 ## A reward
 
@@ -70,7 +64,7 @@ The continuous maintenance and updates are all made for free, but you can reward
 
 | WeChat                                                                                             | Alipay                                                                                             |
 | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| ![Wechat](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/raw/master/Others/Wechat.png) | ![Alipay](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/raw/master/Others/Alipay.jpeg) |
+| ![Wechat](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/raw/master/Others/Wechat.png) | ![Alipay](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/raw/master/Others/Alipay.jpeg) |
 
 
 ## Credits

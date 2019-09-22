@@ -1,6 +1,6 @@
 # S200H EFI 更新日志
 
-[English](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/blob/master/Changelog.md) | 中文
+[English](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/blob/master/Changelog.md) | 中文
 
 - 2019-09-04 v1.2 Beta 1
   - 支持4K分辨率

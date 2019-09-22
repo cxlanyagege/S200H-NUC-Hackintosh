@@ -1,7 +1,7 @@
 # S200H-i9-8950HK-黑苹果教程
 让你的深水宝迷你主机吃上黑苹果 (S200H)
 
-[English](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/blob/master/README.md) | 中文
+[English](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/blob/master/README.md) | 中文
 
 ## 配置
 
@@ -9,8 +9,8 @@
 
 | 硬件      | 规格                               |
 | --------- | --------------------------------- |
-| 电脑型号   | S200H mini PC                   |
-| 中央处理器 | Intel Core i9-8950HK              |
+| 电脑型号   | S200H NUC mini PC                 |
+| 中央处理器 | Intel Core i9/i7/i5               |
 | 内存      | 32GB Crucial DDR4 2667MHz         |
 | 硬盘      | Samsung 970 EVO 1TB               |
 | 显卡      | Intel UHD Graphics 630            |
@@ -35,18 +35,13 @@
   - 根据[Issue #6](https://github.com/kkzzhizhou/S200H_I7-8750H_Hackintosh/issues/6), [kkzzhizhou](https://github.com/kkzzhizhou)在正常使用情况下遇到过与睡眠唤醒后一样的现象
 - 若发现更多错误，请报告给我
 
-## 下一步做什么
-
-- [OpenCore](https://github.com/acidanthera/OpenCorePkg)
-- 用hotpatch修复剩余的ACPI表
-- 尽可能修复睡眠唤醒问题
-
 ## 支持系统与下载
 
 - macOS Mojave
 - macOS Catalina
 
-[下载最新版](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/releases/download/v1.1/S200H-EFI-v1.1.zip) | [发布](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/releases) | [更新日志](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/blob/master/Changelog_CN.md)
+[下载最新版](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/releases/download/v1.1/S200H-EFI-v1.1.zip) | [发布](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/releases) | [更新日志](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/blob/master/Changelog_CN.md)
+* 你需要承担尝试预览版后的一切后果，包括硬件损坏等，而不是作者
 
 ## 购买途径
 
@@ -69,7 +64,7 @@
 
 | 微信                                                                                             | 支付宝                                                                                             |
 | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| ![Wechat](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/raw/master/Others/Wechat.png) | ![Alipay](https://github.com/EngLearnsh/S200H-i9-8950HK-Hackintosh/raw/master/Others/Alipay.jpeg) |
+| ![Wechat](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/raw/master/Others/Wechat.png) | ![Alipay](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/raw/master/Others/Alipay.jpeg) |
 
 ## 鸣谢
 
