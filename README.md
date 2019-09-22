@@ -41,7 +41,7 @@ The following configurations may not be identical. You may ask sellers for a qua
 - macOS Catalina
 
 [Download latest EFI](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/releases/download/v1.1/S200H-EFI-v1.1.zip) | [Releases](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/releases) | [Changelog](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/blob/master/Changelog.md)
-* Pre-release should only be tried at your own risk, author would take void on your hardware damages
+Pre-release should only be tried at your own risk, author would take void on your hardware damages
 
 ## Where to buy
 

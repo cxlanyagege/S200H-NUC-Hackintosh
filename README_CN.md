@@ -41,7 +41,7 @@
 - macOS Catalina
 
 [下载最新版](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/releases/download/v1.1/S200H-EFI-v1.1.zip) | [发布](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/releases) | [更新日志](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/blob/master/Changelog_CN.md)
-* 你需要承担尝试预览版后的一切后果，包括硬件损坏等，而不是作者
+你需要承担尝试预览版后的一切后果，包括硬件损坏等，而不是作者
 
 ## 购买途径
 
@@ -55,8 +55,7 @@
   
 ## 注意事项
 
-- 通常情况下，i5或i7的型号可以直接使用这份EFI文件，但我并没有专门测试它，你需要承担一切责任来测试是否在你的机器上工作
-- 我的BCM943602CS目前使用转接板插在M2 SSD插槽上（Key M通道不带USB通道，目前我用的外接蓝牙），所以我无法测试默认网卡槽的蓝牙通道是否正确开启，根据[kkzzhizhou](https://github.com/kkzzhizhou)的测试结果应该没有问题，如果蓝牙意外不工作，请前往“Issues”报告问题
+我已经决定不再花过多的时间在这个项目上工作，如果有人希望接手，欢迎联系我。我有可能会在macOS，Clover和kexts重大更新后来更新她
 
 ## 捐赠
 
