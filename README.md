@@ -3,9 +3,9 @@ Installing macOS on your S200H
 
 English | [中文](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/blob/master/README_CN.md)
 
-## Configuration
+## My Configuration
 
-The following configurations may not be identical. You may ask sellers for a quasi-system if you want more customisations
+The following configurations may not be identical but work well for me. You may ask sellers for a quasi-system if you want more customisations
 
 | Specifications | Details                           |
 | -------------- | --------------------------------- |
@@ -37,27 +37,41 @@ The following configurations may not be identical. You may ask sellers for a qua
 
 ## Supporting OS & Downloads
 
+- macOS High Sierra (Only 10.13.6)
 - macOS Mojave
 - macOS Catalina
 
 [Download latest EFI](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/releases/download/v1.1/S200H-EFI-v1.1.zip) | [Releases](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/releases) | [Changelog](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/blob/master/Changelog.md)
 
-Pre-release should only be tried at your own risk, author would take void on your hardware damages
+Pre-release should only be used at your own risk, author would take void on any damages
 
-## Where to buy
+## FAQ
 
-- [Taobao](https://item.taobao.com/item.htm?spm=a230r.1.14.20.47f24c1aV8myCD&id=564185703343&ns=1&abbucket=14#detail)
-  - If you are not in mainland of China, Taobao may not ship oversea directly. You may need to find agents or someone else takes it from China
-- [AliExpress](https://www.aliexpress.com/item/32974757463.html?spm=2114.search0104.3.15.3df35489p80342&ws_ab_test=searchweb0_0,searchweb201602_6_10065_10130_10068_10547_319_317_10548_10696_10192_10190_453_10084_454_10083_10618_10307_10820_10301_10821_10303_537_536_10059_10884_10887_321_322_10103,searchweb201603_52,ppcSwitch_0&algo_expid=7ccf7ab0-f5cf-4f12-95f8-5b616c4e6775-2&algo_pvid=7ccf7ab0-f5cf-4f12-95f8-5b616c4e6775)
+### I get stucked on Clover, whether keyboard or mouse gives no response
 
-## Discussion
+If you encounter this problem, you may go to BIOS and enable `CSM Support`. Once you finish setuping the macOS, you may turn it off and try again
+
+### Some applications like Chrome or Hackintool become freezing after waking up from sleeping, and unable to play videos
+
+Currently it is a well-known problem happened on S200. After talking with other hakintosh experts, we still have no idea and the effective solution
+
+### I meet some problems in using macOS by this EFI
+
+You may refer to [Issues](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/issues) to check if others meet the same situation. Otherwise you may create your own issues. Great suggestions and bug reports are always welcomed.
+
+### Is there any invitations in any forums which talk about S200 NUC
+
+Yes, I have searched some forums, here is what I find:
 
 - [Tonymacx86](https://www.tonymacx86.com/threads/eglobal-s200-nuc-intel-i7-8750h-mini-pc-compatible.276741)
 - [Zhihu](https://zhuanlan.zhihu.com/p/65263547)
-  
-## Notice
 
-I have decided not to spend too much time on this repo anymore, if someone wants to take it over, please contact me. I may update it once there meets huge updates on macOS, Clover or other kexts
+### Where can I buy S200 NUC
+
+Sellers have no relationships with me, my jog is to create a better hackintosh environment for S200 NUC
+
+- [Taobao](https://item.taobao.com/item.htm?spm=a230r.1.14.20.47f24c1aV8myCD&id=564185703343&ns=1&abbucket=14#detail)
+- [AliExpress](https://www.aliexpress.com/item/32974757463.html?spm=2114.search0104.3.15.3df35489p80342&ws_ab_test=searchweb0_0,searchweb201602_6_10065_10130_10068_10547_319_317_10548_10696_10192_10190_453_10084_454_10083_10618_10307_10820_10301_10821_10303_537_536_10059_10884_10887_321_322_10103,searchweb201603_52,ppcSwitch_0&algo_expid=7ccf7ab0-f5cf-4f12-95f8-5b616c4e6775-2&algo_pvid=7ccf7ab0-f5cf-4f12-95f8-5b616c4e6775)
 
 ## A reward
 
