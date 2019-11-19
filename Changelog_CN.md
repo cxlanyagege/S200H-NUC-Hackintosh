@@ -2,6 +2,15 @@
 
 [English](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/blob/master/Changelog.md) | 中文
 
+- 2019-11-19 v1.2 Beta 2
+  - 更新 `Clover` 5098
+  - 更新 `Lilu` 1.3.9
+  - 更新 `AppleALC` 1.4.3
+  - 更新 `Whatevergreen` 1.3.4
+  - 更新 `VirtualSMC` 1.0.9，包括两个传感器驱动
+  - 更新 `ApfsDriverLoader.efi`，解决部分分区引导问题
+  - 移除无用的主题
+
 - 2019-09-04 v1.2 Beta 1
   - 支持4K分辨率
   - 移除 `framebuffer-fbmem`, `framebuffer-stolenmem` 和 `framebuffer-unifiedmem` 以测试显卡的稳定性
