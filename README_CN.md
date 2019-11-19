@@ -1,11 +1,11 @@
-# S200H-i9-8950HK-黑苹果教程
-让你的深水宝迷你主机吃上黑苹果 (S200H)
+# S200H-NUC-黑苹果教程
+让你的S200H迷你主机吃上黑苹果
 
 [English](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/blob/master/README.md) | 中文
 
 ## 配置
 
-以下配置并非与卖家预配描述完全一致，如果需要更多自定义硬件配置，可以向卖家说明购买准系统
+以下是我的个人运行良好的配置。如果需要更多自定义硬件配置，可以向卖家说明购买准系统
 
 | 硬件      | 规格                               |
 | --------- | --------------------------------- |
@@ -21,11 +21,11 @@
 
 ## BIOS设置
 
-- Secure Boot -> Disabled
-- VT-d -> Enabled
-- Quiet Boot -> Enabled
-- Fast Boot -> Disabled
-- CSM Support -> Disabled
+`Secure Boot` -> `Disabled`
+`VT-d` -> `Enabled`
+`Quiet Boot` -> `Enabled`
+`Fast Boot` -> `Disabled`
+`CSM Support` -> `Disabled`
 
 ## 不正常工作的
 
@@ -33,30 +33,45 @@
 - 睡眠唤醒后部分软件不正常工作（Chrome等）
   - 经过我的测试，HDMI和mDP都有此问题
   - 根据[Issue #6](https://github.com/kkzzhizhou/S200H_I7-8750H_Hackintosh/issues/6), [kkzzhizhou](https://github.com/kkzzhizhou)在正常使用情况下遇到过与睡眠唤醒后一样的现象
-- 若发现更多错误，请报告给我
+- 若发现更多错误，请告诉我
 
 ## 支持系统与下载
 
+- macOS High Sierra (只支持10.13.6)
 - macOS Mojave
 - macOS Catalina
 
 [下载最新版](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/releases/download/v1.1/S200H-EFI-v1.1.zip) | [发布](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/releases) | [更新日志](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/blob/master/Changelog_CN.md)
 
-你需要承担尝试预览版后的一切后果，包括硬件损坏等，而不是作者
+你需要承担尝试预览版后的一切后果，包括任何损害，而不是作者
 
-## 购买途径
+## 疑难解答
 
-- [淘宝](https://item.taobao.com/item.htm?spm=a230r.1.14.20.47f24c1aV8myCD&id=564185703343&ns=1&abbucket=14#detail)
-- [阿里速卖通](https://www.aliexpress.com/item/32974757463.html?spm=2114.search0104.3.15.3df35489p80342&ws_ab_test=searchweb0_0,searchweb201602_6_10065_10130_10068_10547_319_317_10548_10696_10192_10190_453_10084_454_10083_10618_10307_10820_10301_10821_10303_537_536_10059_10884_10887_321_322_10103,searchweb201603_52,ppcSwitch_0&algo_expid=7ccf7ab0-f5cf-4f12-95f8-5b616c4e6775-2&algo_pvid=7ccf7ab0-f5cf-4f12-95f8-5b616c4e6775)
+### 进入Clover后无法操作，键盘和鼠标都无响应
 
-## 讨论
+如果你遇到这个问题，你可以尝试去BIOS中临时开启`CSM Support`。当你完成macOS的安装后，可以再次尝试关闭此选项
+
+### 部分类似Chrome或Hackintool等软件在电脑从睡眠中唤醒后冻结，并且无法播放视频
+
+目前，这是个普遍和棘手的问题，我尝试和多个黑果专家探讨，暂时还没有得到有效的解决方案
+
+### 我用这个EFI来跑macOS的时候遇到了问题
+
+你可以去[Issues](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/issues)查看是否有人遇到了相同的问题，你也可以创建自己发现的问题。欢迎大家给出好的建议和错误反馈
+
+### 有论坛的帖子讨论S200迷你主机的吗
+
+有，我查找了一些论坛，目前找到如下：
 
 - [Tonymacx86](https://www.tonymacx86.com/threads/eglobal-s200-nuc-intel-i7-8750h-mini-pc-compatible.276741)
 - [知乎](https://zhuanlan.zhihu.com/p/65263547)
-  
-## 注意事项
 
-我已经决定不再花过多的时间在这个项目上工作，如果有人希望接手，欢迎联系我。我有可能会在macOS，Clover和kexts重大更新后来更新她
+### 我在哪儿可以买S200迷你主机
+
+卖家和本人没有任何关系，我的工作是为S200迷你主机创造一个良好的黑果环境
+
+- [淘宝](https://item.taobao.com/item.htm?spm=a230r.1.14.20.47f24c1aV8myCD&id=564185703343&ns=1&abbucket=14#detail)
+- [阿里速卖通](https://www.aliexpress.com/item/32974757463.html?spm=2114.search0104.3.15.3df35489p80342&ws_ab_test=searchweb0_0,searchweb201602_6_10065_10130_10068_10547_319_317_10548_10696_10192_10190_453_10084_454_10083_10618_10307_10820_10301_10821_10303_537_536_10059_10884_10887_321_322_10103,searchweb201603_52,ppcSwitch_0&algo_expid=7ccf7ab0-f5cf-4f12-95f8-5b616c4e6775-2&algo_pvid=7ccf7ab0-f5cf-4f12-95f8-5b616c4e6775)
 
 ## 捐赠
 

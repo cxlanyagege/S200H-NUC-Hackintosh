@@ -21,11 +21,11 @@ The following configurations may not be identical but work well for me. You may 
 
 ## BIOS Configuration
 
-- `Secure Boot` -> `Disabled`
-- `VT-d` -> `Enabled`
-- `Quiet Boot` -> `Enabled`
-- `Fast Boot` -> `Disabled`
-- `CSM Support` -> `Disabled`
+`Secure Boot` -> `Disabled`
+`VT-d` -> `Enabled`
+`Quiet Boot` -> `Enabled`
+`Fast Boot` -> `Disabled`
+`CSM Support` -> `Disabled`
 
 ## What is not working
 
@@ -75,7 +75,7 @@ Sellers have no relationships with me, my jog is to create a better hackintosh e
 
 ## A reward
 
-The continuous maintenance and updates are all made for free, but you can reward me if you want
+The continuous maintenance and updates are all made for free, but you can buy me a coffee if you want
 
 | WeChat                                                                                             | Alipay                                                                                             |
 | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
