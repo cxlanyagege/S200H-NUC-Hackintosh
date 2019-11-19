@@ -21,11 +21,11 @@ The following configurations may not be identical but work well for me. You may 
 
 ## BIOS Configuration
 
-- Secure Boot -> Disabled
-- VT-d -> Enabled
-- Quiet Boot -> Enabled
-- Fast Boot -> Disabled
-- CSM Support -> Disabled
+- `Secure Boot` -> `Disabled`
+- `VT-d` -> `Enabled`
+- `Quiet Boot` -> `Enabled`
+- `Fast Boot` -> `Disabled`
+- `CSM Support` -> `Disabled`
 
 ## What is not working
 
@@ -57,7 +57,7 @@ Currently it is a well-known problem happened on S200. After talking with other 
 
 ### I meet some problems in using macOS by this EFI
 
-You may refer to [Issues](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/issues) to check if others meet the same situation. Otherwise you may create your own issues. Great suggestions and bug reports are always welcomed.
+You may refer to [Issues](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/issues) to check if others meet the same situation. Otherwise you may create your own issues. Great suggestions and bug reports are always welcomed
 
 ### Is there any invitations in any forums which talk about S200 NUC
 
