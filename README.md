@@ -22,6 +22,7 @@ The following configurations may not be identical but work well for me. You may 
 ## BIOS Configuration
 
 `Secure Boot` -> `Disabled`
+
 `VT-d` -> `Enabled`
 `Quiet Boot` -> `Enabled`
 `Fast Boot` -> `Disabled`
