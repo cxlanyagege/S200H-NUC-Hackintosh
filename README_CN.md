@@ -21,11 +21,11 @@
 
 ## BIOS设置
 
-`Secure Boot` -> `Disabled`
-`VT-d` -> `Enabled`
-`Quiet Boot` -> `Enabled`
-`Fast Boot` -> `Disabled`
-`CSM Support` -> `Disabled`
+`Secure Boot` -> `Disabled`  
+`VT-d` -> `Enabled`  
+`Quiet Boot` -> `Enabled`  
+`Fast Boot` -> `Disabled`  
+`CSM Support` -> `Disabled`  
 
 ## 不正常工作的
 
