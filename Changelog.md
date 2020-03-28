@@ -2,6 +2,17 @@
 
 English | [中文](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/blob/master/Changelog_CN.md)
 
+- 2020-03-28 v1.3
+  - Support macOS Catalina 10.15.4 (Thanks to [ciciwind](https://github.com/ciciwind) via [Issues #6](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/issues/6))
+  - Update `Clover` 5107
+  - Update `Lilu` 1.4.2
+  - Update `AppleALC` 1.4.7
+  - Update `Whatevergreen` 1.3.7
+  - Update `VirtualSMC` 1.1.1, including `SMCProcessor` and `SMCSuperIO`
+  - Update `ApfsDriverLoader.efi` `AudioDxe.efi` `DataHubDxe.efi` `FSInject.efi`
+  - Update built-in `UEFI Shell`
+
+
 - 2019-12-22 v1.2
   - Update `Clover` 5101
   - Update `Lilu` 1.4.0
