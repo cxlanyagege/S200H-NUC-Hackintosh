@@ -41,7 +41,7 @@
 - macOS Mojave
 - macOS Catalina
 
-[下载最新版](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/releases/download/v1.2/S200H-EFI-v1.2.zip) | [发布](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/releases) | [更新日志](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/blob/master/Changelog_CN.md)
+[下载最新版](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/releases/download/v1.3/S200H-EFI-v1.3.zip) | [发布](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/releases) | [更新日志](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/blob/master/Changelog_CN.md)
 
 你需要承担尝试预览版后的一切后果，包括任何损害，而不是作者
 
