@@ -7,17 +7,17 @@
 
 以下是我的个人运行良好的配置。如果需要更多自定义硬件配置，可以向卖家说明购买准系统
 
-| 硬件      | 规格                               |
-| --------- | --------------------------------- |
-| 电脑型号   | S200H NUC mini PC                 |
-| 中央处理器 | Intel Core i9/i7/i5               |
-| 内存      | 32GB Crucial DDR4 2667MHz         |
-| 硬盘      | Samsung 970 EVO 1TB               |
-| 显卡      | Intel UHD Graphics 630            |
-| 显示器    | LG IPS Full HD 1080p              |
-| 声卡      | Realtek ALC269VC (layout-id:188)  |
-| 无线网卡   | Broadcom 943602CS                 |
-| 以太网卡   | Realtek RTL8168H                  |
+| 硬件      | 个人配置                           | 推荐配置 |
+| --------- | --------------------------------- | ------- |
+| 电脑型号   | S200H NUC mini PC                 | -       |
+| 中央处理器 | 英特尔 酷睿 i9-8950HK              | Intel Core i5/i7/i9 (8-series only) |
+| 内存      | 镁光 32GB DDR4 2667MHz         | 最低2GB DDR4                         |
+| 硬盘      | 三星 970 EVO 1TB               | 最低32GB SATA/NVME SSD               |
+| 显卡      | 英特尔 UHD Graphics 630            | 集成显卡或外接AMD独立显卡              |
+| 显示器    | LG IPS 全高清 1080p HDMI          | 最低800x600 HDMI/mDP                 |
+| 声卡      | 瑞昱 ALC269VC (layout-id:188)     | 内建或USB声卡                        |
+| 无线网卡   | 博通 943602CS                    | 博通系列或USB无线网卡                |
+| 以太网卡   | 瑞昱 RTL8168H                    | 内建或USB以太网卡                    |
 
 ## BIOS设置
 
@@ -41,7 +41,7 @@
 - macOS Mojave
 - macOS Catalina
 
-[下载最新版](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/releases/download/v1.3/S200H-EFI-v1.3.zip) | [发布](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/releases) | [更新日志](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/blob/master/Changelog_CN.md)
+[下载最新版](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/releases/download/v1.4/S200H-EFI-v1.4.zip) | [发布](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/releases) | [更新日志](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/blob/master/Changelog_CN.md)
 
 你需要承担尝试预览版后的一切后果，包括任何损害，而不是作者
 

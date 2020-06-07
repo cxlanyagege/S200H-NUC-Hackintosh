@@ -3,21 +3,21 @@ Installing macOS on your S200H
 
 English | [中文](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/blob/master/README_CN.md)
 
-## My Configuration
+## Configuration
 
 The following configurations may not be identical but work well for me. You may ask sellers for a quasi-system if you want more customisations
 
-| Specifications | Details                           |
-| -------------- | --------------------------------- |
-| PC Model       | S200H NUC mini PC                 |
-| Processor      | Intel Core i9/i7/i5               |
-| Memory         | 32GB Crucial DDR4 2667MHz         |
-| Hard Disk      | Samsung 970 EVO 1TB               |
-| Graphics       | Intel UHD Graphics 630            |
-| Monitor        | LG IPS Full HD 1080p              |
-| Sound Card     | Realtek ALC269VC (layout-id:188)  |
-| Wireless Card  | Broadcom 943602CS                 |
-| Ethernet       | Realtek RTL8168H                  |
+| Specifications | My Configuration                  | Recommendation                      |
+| -------------- | --------------------------------- | ----------------------------------- |
+| PC Model       | S200H NUC mini PC                 | -                                   |
+| Processor      | Intel Core i9-8950HK              | Intel Core i5/i7/i9 (8-series only) |
+| Memory         | 32GB Crucial DDR4 2667MHz         | 2GB DDR4 or higher                  |
+| Hard Disk      | Samsung 970 EVO 1TB               | 32GB SATA/NVME SSD or higher        |
+| Graphics       | Intel UHD Graphics 630            | iGPU or external AMD dGPU           |
+| Monitor        | LG IPS Full HD 1080p              | 800x600 HDMI/mDP or higher          |
+| Sound Card     | Realtek ALC269VC (layout-id:188)  | Built-in or USB external            |
+| Wireless Card  | Broadcom 943602CS                 | Broadcom series or USB wireless     |
+| Ethernet       | Realtek RTL8168H                  | Built-in or USB external            |
 
 ## BIOS Configuration
 
@@ -37,11 +37,11 @@ The following configurations may not be identical but work well for me. You may 
 
 ## Supporting OS & Downloads
 
-- macOS High Sierra (Only 10.13.6)
+- macOS High Sierra (only 10.13.6)
 - macOS Mojave
 - macOS Catalina
 
-[Download latest EFI](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/releases/download/v1.3/S200H-EFI-v1.3.zip) | [Releases](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/releases) | [Changelog](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/blob/master/Changelog.md)
+[Download latest EFI](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/releases/download/v1.4/S200H-EFI-v1.4.zip) | [Releases](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/releases) | [Changelog](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/blob/master/Changelog.md)
 
 Pre-release should only be used at your own risk, author would take void on any damages
 
