@@ -10,7 +10,7 @@
 | 硬件      | 个人配置                           | 推荐配置 |
 | --------- | --------------------------------- | ------- |
 | 电脑型号   | S200H NUC mini PC                 | -       |
-| 中央处理器 | 英特尔 酷睿 i9-8950HK              | Intel Core i5/i7/i9 (8-series only) |
+| 中央处理器 | 英特尔 酷睿 i9-8950HK              | 英特尔 酷睿 i5/i7/i9 (仅支持8-series) |
 | 内存      | 镁光 32GB DDR4 2667MHz         | 最低2GB DDR4                         |
 | 硬盘      | 三星 970 EVO 1TB               | 最低32GB SATA/NVME SSD               |
 | 显卡      | 英特尔 UHD Graphics 630            | 集成显卡或外接AMD独立显卡              |
@@ -37,7 +37,7 @@
 
 ## 支持系统与下载
 
-- macOS High Sierra (只支持10.13.6)
+- macOS High Sierra (仅支持10.13.6)
 - macOS Mojave
 - macOS Catalina
 

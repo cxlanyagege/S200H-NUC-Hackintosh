@@ -37,7 +37,7 @@ The following configurations may not be identical but work well for me. You may 
 
 ## Supporting OS & Downloads
 
-- macOS High Sierra (only 10.13.6)
+- macOS High Sierra (10.13.6 only)
 - macOS Mojave
 - macOS Catalina
 
