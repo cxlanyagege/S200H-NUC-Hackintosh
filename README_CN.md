@@ -29,11 +29,11 @@
 
 ## 不正常工作的
 
-- 电源按钮不起作用
-- 睡眠唤醒后部分软件不正常工作（Chrome等）
-  - 经过我的测试，HDMI和mDP都有此问题
-  - 根据[Issue #6](https://github.com/kkzzhizhou/S200H_I7-8750H_Hackintosh/issues/6), [kkzzhizhou](https://github.com/kkzzhizhou)在正常使用情况下遇到过与睡眠唤醒后一样的现象
-- 若发现更多错误，请告诉我
+- 电源按钮不起作用，强制关机依旧有效
+- 显卡问题
+  - 睡眠唤醒后部分软件不正常工作（例如 Chrome）
+  - 根据[Issues #11](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/issues/11) 和 [Issues #12](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/issues/12)，你可能需要手动添加Fake ID来避免HDMI使用中的黑屏
+- 如果发现更多错误，请告诉我
 
 ## 支持系统与下载
 
