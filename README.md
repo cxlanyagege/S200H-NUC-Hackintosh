@@ -1,11 +1,11 @@
+<font color=red>*Due to lack of testing machine, I would gradually stop maintaining this repo. If you are interested in hackintosh, you may fork and send me pull request</font>
+
 # S200H-NUC-Hackintosh
-Installing macOS on your S200H
+Install macOS on your S200H
 
 English | [中文](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/blob/master/README_CN.md)
 
 ## Configuration
-
-The following configurations may not be identical but work well for me. You may ask sellers for a quasi-system if you want more customisations
 
 | Specifications | My Configuration                  | Recommendation                      |
 | -------------- | --------------------------------- | ----------------------------------- |
@@ -18,6 +18,8 @@ The following configurations may not be identical but work well for me. You may 
 | Sound Card     | Realtek ALC269VC (layout-id:188)  | Built-in or USB external            |
 | Wireless Card  | Broadcom 943602CS                 | Broadcom series or USB wireless     |
 | Ethernet       | Realtek RTL8168H                  | Built-in or USB external            |
+
+You may ask sellers for a quasi-system if you want more customisations
 
 ## BIOS Configuration
 
@@ -53,9 +55,31 @@ If you encounter this problem, you may go to BIOS and enable `CSM Support`. Once
 
 ### Some applications like Chrome or Hackintool become freezing after waking up from sleeping, and unable to play videos
 
-Currently it is a well-known problem happened on S200. After talking with other hakintosh experts, we still have no idea and the effective solution
+Currently it's a well-known problem happened on S200. After talking with other hakintosh experts, we still have no idea and the effective solution
 
-### I meet some problems in using macOS by this EFI
+### HEVC is not presenting, the hardware and BIOS configurations are all correct
+
+Refer to [Issues #5](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/issues/5), you may manually download the newer version of [Lilu](https://github.com/acidanthera/Lilu/releases) and [Whatevergreen](https://github.com/acidanthera/WhateverGreen/releases), unzip them and replace stock kext in `/EFI/CLOVER/Kexts/Other`
+
+### Screen artifacts or flickering present in some working load
+
+Fortunately, most users won't have this problem except the boot stage. This is because some displays may have compatible problems connecting via HDMI, if you are still facing this issue after replacing displays, please refer to [Issues #3](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/issues/3)
+
+### Can I add discrete graphics? NVIDIA or AMD? Which one is better? And where can I buy the dock
+
+NVIDIA webdriver isn't compatible with macOS 10.14 Mojave and above, unless you want to try some old stuff (eg. GT710), so AMD is always recommended. If you don't know which one is suitable, please refer to [the list of compatible AMD graphics in macOS](https://github.com/CrazyPegAsus/macOS-Mojave-Compatibility-hardware-list#%E9%A6%96%E9%80%89-%E8%93%9D%E5%AE%9D%E7%9F%B3-%E5%BE%AE%E6%98%9F-%E7%9A%84). The dock I buy is from [Taobao](https://item.taobao.com/item.htm?spm=a1z10.5-c-s.w4002-21839614856.41.178472171zqPyZ&id=593258062526), you can also make your own dock if you are interested in. If you want more information and discussion about dock and dGPU, please go to [Issues #10](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/issues/10)
+
+### Does this EFI support OTA updates in macOS? For example, from 10.15.4 to 10.15.5, or even 10.16 in future
+
+OTA usually survives in minor updates, but that does not mean you will never face tiny bugs or even boot failure after upgrading. Here is what you can do before (and after) upgrading:
+
+1. Disable auto updates inside macOS
+2. Make sure you backup your personal files
+3. You may go to forums or [Issues](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/issues) to see if there are any successful or failed update results
+
+I'm sorry that this repo is gradually being stoped maintaining due to lack of testing machine. So smooth upgrade to 10.16 without any issues by only using this EFI would never (or let's say 0.01% survival rate) exist
+
+### I meet other problems in using macOS by this EFI
 
 You may refer to [Issues](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/issues) to check if others meet the same situation. Otherwise you may create your own issues. Great suggestions and bug reports are always welcomed
 
@@ -83,10 +107,34 @@ The continuous maintenance and updates are all made for free, but you can buy me
 
 
 ## Credits
-
-- Thanks to [RehabMan](https://github.com/RehabMan) for providing [EAPD-Codec-Commander](https://github.com/RehabMan/EAPD-Codec-Commander),  [OS-X-Clover-Laptop-Config](https://github.com/RehabMan/OS-X-Clover-Laptop-Config), [OS-X-Null-Ethernet](https://github.com/RehabMan/OS-X-Null-Ethernet), [OS-X-USB-Inject-All](https://github.com/RehabMan/OS-X-USB-Inject-All), and [SATA-unsupported](https://github.com/RehabMan/hack-tools/tree/master/kexts/SATA-unsupported.kext)
-- Thanks to [Acidanthera](https://github.com/acidanthera) for providing [AppleALC](https://github.com/acidanthera/AppleALC), [AppleSupportPkg](https://github.com/acidanthera/AppleSupportPkg), [AptioFixPkg](https://github.com/acidanthera/AptioFixPkg), [HibernationFixup](https://github.com/acidanthera/HibernationFixup), [Lilu](https://github.com/acidanthera/Lilu), [VirtualSMC](https://github.com/acidanthera/VirtualSMC), and [WhateverGreen](https://github.com/acidanthera/WhateverGreen)
-- Thanks to [apianti](https://sourceforge.net/u/apianti), [blackosx](https://sourceforge.net/u/blackosx), [blusseau](https://sourceforge.net/u/blusseau), [dmazar](https://sourceforge.net/u/dmazar), and [slice2009](https://sourceforge.net/u/slice2009) for providing [Clover](https://sourceforge.net/projects/cloverefiboot)
+- Thanks to [Apple](https://www.apple.com/)'s [macOS](https://www.apple.com/macos/)
+- Thanks to [RehabMan](https://github.com/RehabMan) for maintaining [EAPD-Codec-Commander](https://github.com/RehabMan/EAPD-Codec-Commander),  [OS-X-Clover-Laptop-Config](https://github.com/RehabMan/OS-X-Clover-Laptop-Config), [OS-X-Null-Ethernet](https://github.com/RehabMan/OS-X-Null-Ethernet), [OS-X-USB-Inject-All](https://github.com/RehabMan/OS-X-USB-Inject-All), and [SATA-unsupported](https://github.com/RehabMan/hack-tools/tree/master/kexts/SATA-unsupported.kext)
+- Thanks to [Acidanthera](https://github.com/acidanthera) for maintaining [AppleALC](https://github.com/acidanthera/AppleALC), [AppleSupportPkg](https://github.com/acidanthera/AppleSupportPkg), [AptioFixPkg](https://github.com/acidanthera/AptioFixPkg), [HibernationFixup](https://github.com/acidanthera/HibernationFixup), [Lilu](https://github.com/acidanthera/Lilu), [VirtualSMC](https://github.com/acidanthera/VirtualSMC), and [WhateverGreen](https://github.com/acidanthera/WhateverGreen)
+- Thanks to [apianti](https://sourceforge.net/u/apianti), [blackosx](https://sourceforge.net/u/blackosx), [blusseau](https://sourceforge.net/u/blusseau), [dmazar](https://sourceforge.net/u/dmazar), and [slice2009](https://sourceforge.net/u/slice2009) for maintaining [Clover](https://sourceforge.net/projects/cloverefiboot)
+- Thanks to [CloverHackyColor](https://github.com/CloverHackyColor) for maintaining [CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader) and [CloverThemes](https://github.com/CloverHackyColor/CloverThemes)
+- Thanks to [headkaze](https://www.insanelymac.com/forum/profile/1364628-headkaze/) for providing [Hackintool](https://github.com/headkaze/Hackintool)
+- Thanks to [daliansky](https://github.com/daliansky/Hackintosh) and [stevezhengshiqi](https://github.com/stevezhengshiqi) for providing basic Chinese Hackintosh stencil and [GitHub Hackintosh](https://github.com/daliansky/Hackintosh)
+- Thanks to [CrazyPegasus](https://github.com/CrazyPegasus) for providing [macOS-Mojave-Compatibility-hardware-list](https://github.com/CrazyPegasus/macOS-Mojave-Compatibility-hardware-list)
 - Thanks to [kkzzhizhou](https://github.com/kkzzhizhou) for providing [USBPorts.kext](https://github.com/kkzzhizhou/S200H_I7-8750H_Hackintosh/tree/master/EFI/CLOVER/kexts/Other/USBPorts.kext) and Framebuffer for both HDMI and DP port
-- Thanks to [daliansky](https://github.com/daliansky/Hackintosh) and [stevezhengshiqi](https://github.com/stevezhengshiqi) for providing basic Chinese Hackintosh stencil and [Hackintool](https://github.com/daliansky/Hackintosh)
 - Thanks to [Everlasting](https://www.zhihu.com/people/3d7d974acb5eb086a0c378402ae0d100) for indicating the failure when connecting to a 4K monitor
+- Thanks to [talkmbbs](https://github.com/talkmbbs) for indicating APFS guiding failure via [Issues #2](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/issues/2)
+- Thanks to [DreamDZhu](https://github.com/DreamDZhu) for indicating screen artifacts via [Issues #3](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/issues/3)
+- Thanks to [MekaYangyi](https://github.com/MekaYangyi) for indicating each EFI versions' issues via [Issues #4](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/issues/4)
+- Thanks to [a22218279](https://github.com/a22218279) for indicating HEVC decoding failure via [Issues #5](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/issues/5)
+- Thanks to [ciciwind](https://github.com/ciciwind) for indicating OTA failure via [Issues #6](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/issues/6)
+- Thanks to [imagine243](https://github.com/imagine243) and [cdqrain](https://github.com/cdqrain) for indicating black screen when using HDMI via [Issues #7](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/issues/7) and [Issues #12](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/issues/12)
+
+## Reference
+- [Apple](https://www.apple.com/)
+- [Google](https://www.google.com/)
+- [Baidu](https://www.baidu.com/)
+- [Wikipedia](https://www.wikipedia.org/)
+- [GitHub](https://github.com/)
+- [SourceForge](https://sourceforge.net/)
+- [InsanelyMac](https://www.insanelymac.com/)
+- [TonyMacX86](https://www.tonymacx86.com/)
+- [Reddit](https://www.reddit.com/)
+- [PCBeta](http://bbs.pcbeta.com/)
+- [Zhihu](https://www.zhihu.com/)
+- [Taobao](https://www.taobao.com/)
+- [AliExpress](https://www.aliexpress.com/)
