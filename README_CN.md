@@ -1,6 +1,7 @@
 <font color=red>*由于缺少测试的机器，我会逐步停止维护这个项目。如果你对黑苹果有兴趣并希望帮助我维护，请联系我</font>
 
 # S200H-NUC-黑苹果教程
+
 让你的S200H迷你主机吃上黑苹果
 
 [English](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/blob/master/README.md) | 中文
@@ -89,6 +90,7 @@
 
 - [Tonymacx86](https://www.tonymacx86.com/threads/eglobal-s200-nuc-intel-i7-8750h-mini-pc-compatible.276741)
 - [知乎](https://zhuanlan.zhihu.com/p/65263547)
+- [远景论坛](http://bbs.pcbeta.com/viewthread-1826798-1-1.html)
 
 ### 我在哪儿可以买S200迷你主机
 
@@ -123,3 +125,19 @@
 - 感谢 [a22218279](https://github.com/a22218279) 通过 [Issues #5](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/issues/5) 提出的HEVC解码问题
 - 感谢 [ciciwind](https://github.com/ciciwind) 通过 [Issues #6](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/issues/6) 提出的OTA升级失败的问题
 - 感谢 [imagine243](https://github.com/imagine243) 和 [cdqrain](https://github.com/cdqrain) 通过 [Issues #7](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/issues/7) 和 [Issues #12](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/issues/12) 提出的HDMI连接时屏幕黑屏的问题
+
+## 参考
+
+- [苹果](https://www.apple.com/)
+- [谷歌](https://www.google.com/)
+- [百度](https://www.baidu.com/)
+- [维基百科](https://www.wikipedia.org/)
+- [GitHub](https://github.com/)
+- [SourceForge](https://sourceforge.net/)
+- [InsanelyMac](https://www.insanelymac.com/)
+- [TonyMacX86](https://www.tonymacx86.com/)
+- [Reddit](https://www.reddit.com/)
+- [远景论坛](http://bbs.pcbeta.com/)
+- [知乎](https://www.zhihu.com/)
+- [淘宝](https://www.taobao.com/)
+- [阿里速卖通](https://www.aliexpress.com/)

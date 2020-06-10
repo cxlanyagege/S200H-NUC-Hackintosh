@@ -1,6 +1,7 @@
 <font color=red>*Due to lack of testing machine, I would gradually stop maintaining this repo. If you are interested in hackintosh, you may fork and send me pull request</font>
 
 # S200H-NUC-Hackintosh
+
 Install macOS on your S200H
 
 English | [中文](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/blob/master/README_CN.md)
@@ -89,6 +90,7 @@ Yes, I have searched some forums, here is what I find:
 
 - [Tonymacx86](https://www.tonymacx86.com/threads/eglobal-s200-nuc-intel-i7-8750h-mini-pc-compatible.276741)
 - [Zhihu](https://zhuanlan.zhihu.com/p/65263547)
+- [PCBeta](http://bbs.pcbeta.com/viewthread-1826798-1-1.html)
 
 ### Where can I buy S200 NUC
 
@@ -107,6 +109,7 @@ The continuous maintenance and updates are all made for free, but you can buy me
 
 
 ## Credits
+
 - Thanks to [Apple](https://www.apple.com/)'s [macOS](https://www.apple.com/macos/)
 - Thanks to [RehabMan](https://github.com/RehabMan) for maintaining [EAPD-Codec-Commander](https://github.com/RehabMan/EAPD-Codec-Commander),  [OS-X-Clover-Laptop-Config](https://github.com/RehabMan/OS-X-Clover-Laptop-Config), [OS-X-Null-Ethernet](https://github.com/RehabMan/OS-X-Null-Ethernet), [OS-X-USB-Inject-All](https://github.com/RehabMan/OS-X-USB-Inject-All), and [SATA-unsupported](https://github.com/RehabMan/hack-tools/tree/master/kexts/SATA-unsupported.kext)
 - Thanks to [Acidanthera](https://github.com/acidanthera) for maintaining [AppleALC](https://github.com/acidanthera/AppleALC), [AppleSupportPkg](https://github.com/acidanthera/AppleSupportPkg), [AptioFixPkg](https://github.com/acidanthera/AptioFixPkg), [HibernationFixup](https://github.com/acidanthera/HibernationFixup), [Lilu](https://github.com/acidanthera/Lilu), [VirtualSMC](https://github.com/acidanthera/VirtualSMC), and [WhateverGreen](https://github.com/acidanthera/WhateverGreen)
@@ -125,6 +128,7 @@ The continuous maintenance and updates are all made for free, but you can buy me
 - Thanks to [imagine243](https://github.com/imagine243) and [cdqrain](https://github.com/cdqrain) for indicating black screen when using HDMI via [Issues #7](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/issues/7) and [Issues #12](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/issues/12)
 
 ## Reference
+
 - [Apple](https://www.apple.com/)
 - [Google](https://www.google.com/)
 - [Baidu](https://www.baidu.com/)
