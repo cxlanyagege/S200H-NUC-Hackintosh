@@ -43,6 +43,8 @@ You may ask sellers for a quasi-system if you want more customisations
 - macOS High Sierra (10.13.6 only)
 - macOS Mojave
 - macOS Catalina
+- Linux
+- Windows
 
 [Download latest EFI](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/releases/download/v1.4/S200H-EFI-v1.4.zip) | [Releases](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/releases) | [Changelog](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/blob/master/Changelog.md)
 

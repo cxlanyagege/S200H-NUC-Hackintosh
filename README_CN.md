@@ -43,6 +43,8 @@
 - macOS High Sierra (仅支持10.13.6)
 - macOS Mojave
 - macOS Catalina
+- Linux
+- Windows
 
 [下载最新版](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/releases/download/v1.4/S200H-EFI-v1.4.zip) | [发布](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/releases) | [更新日志](https://github.com/EngLearnsh/S200H-NUC-Hackintosh/blob/master/Changelog_CN.md)
 
