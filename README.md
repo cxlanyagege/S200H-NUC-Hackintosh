@@ -1,4 +1,4 @@
-<font color=red>*Due to lack of testing machine, I would gradually stop maintaining this repo. If you are interested in hackintosh, you may fork and send me pull request</font>
+For further updates, please refer to [S200-OpenCore-0.6.0-DW1560](https://github.com/yhl452493373/S200-OpenCore-0.6.0-DW1560). Thanks yhl452493373 for taking over!
 
 # S200H-NUC-Hackintosh
 
